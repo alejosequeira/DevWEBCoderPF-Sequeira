@@ -5,11 +5,20 @@
 .text {
     width: 100%;
     text-align: justify;
-    font-size: 18px;
+    font-size: 110%;
     font-family: Arial, Helvetica, sans-serif;
-    padding-right:2%;    
+       
 }
 //another page
+.photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding:4% 1% 0% 2%;
+
+}
 .textoAbo {
     width: 95%;
     margin:0px 30px 0px 30px;
