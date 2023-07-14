@@ -1,0 +1,56 @@
+.formuContact{
+    display: grid;
+    row-gap:10px;    
+    margin:5%;
+}
+.formuContact .dato{
+    display: flex;
+    flex-direction: column;   
+    margin-bottom: 10px; 
+    width:90%;    
+    margin:5%;
+}
+.form-sex{
+    justify-content: space-around;
+    display: flex;
+    align-items:center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top:2%;
+    border:1px solid $color-text;
+}
+
+.formuContact .dato input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid $color-text;
+
+    
+}
+.formuContact button{
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 10px;
+    border:5px solid $color-text;
+    border-radius: 5px;
+    margin-top:5%;
+    padding: 1vh;
+    color:rgba(128, 128, 128);
+}
+.formuContact button:hover{
+    transition:.5s ease all ;
+    background-color: $color-nav1;
+}
+
+.formuContact .dato input:focus{
+    outline: none;
+    border-bottom: 3px solid $color-text;
+}
+.formuContact h4{
+    color: rgba(128, 128, 128);
+    text-decoration:$color-text 2px underline;    
+}
+.formuContact h3{
+    color:rgba(128, 128, 128);
+}
