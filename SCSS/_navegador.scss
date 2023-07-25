@@ -47,7 +47,7 @@ nav {
             $color-nav2,
             $color-nav2,
             $color-nav2,);
-        min-width: 150%;
+        min-width: 170%;
         box-shadow: 3px 5px 6px rgba(60, 60, 60, 0.698);
         padding: 0;
         z-index: -1;
@@ -71,13 +71,12 @@ nav {
                 
         }
         a{
-            letter-spacing:.1rem;
+            letter-spacing:.2rem;
             border-bottom: 4px solid $color-text;
             padding:0px 16px;
             margin:0;
             background-color: rgba(60, 60, 60, 0.498);
             font-size: 95%;
-            font-family:'Courier New', Courier, monospace;
             color:$color-nav1;
             font-style: italic;
         }

@@ -1,138 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="../multimedia/carrot.jpg" rel="shortcut icon" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="../multimedia/carrot.jpg" rel="shortcut icon" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
-    <link href="../css/styles.css" rel="stylesheet">
+  <link href="../css/styles.css" rel="stylesheet">
 </head>
+
 <body>
   <header>
-    <div id="demo" class="carousel slide" data-ride="carousel">            
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../multimedia/carrousel3.jpeg" alt="nutri">
-              <div class="carousel-caption">                      
-            </div>   
-          </div>
-          <div class="carousel-item">
-            <img src="../multimedia/carrousel2.jpg" alt="inter">
-            <div class="carousel-caption">
-            </div>   
-          </div>
-          <div class="carousel-item">
-            <img src="../multimedia/carrousel1.jpg" alt="nutri">
-            <div class="carousel-caption">                      
-            </div>   
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../multimedia/carrousel3.jpeg" alt="nutri">
+          <div class="carousel-caption">
           </div>
         </div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
+        <div class="carousel-item">
+          <img src="../multimedia/carrousel2.jpg" alt="inter">
+          <div class="carousel-caption">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../multimedia/carrousel1.jpg" alt="nutri">
+          <div class="carousel-caption">
+          </div>
+        </div>
       </div>
-</header>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </header>
 
-    <nav>
-        <div>
-            <ul class="nav-bar">
-                <li><a href="../index.html">Home</a></li>
-                <li><a>Juliana Gómez - nutricionist</a></li>
-                <li><a href="about.html">About Us</a></li>
+  <nav>
+    <div>
+      <ul class="nav-bar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a>Juliana Gómez - nutricionist</a></li>
+        <li><a href="about.html">About Us</a></li>
 
-                <div class="dropdown">
-                  <li>
-                    <a href="diet.html">Diet Plans</a>
-                      <ul class="dropdown-content">
-                          <li><a href="pages/mediterranean_diet.html">Mediterranean Diet</a></li>
-                          <li><a href="pages/ketogenic_diet.html">The Ketogenic Diet</a></li>
-                          <li><a href="pages/veganism_diet.html">Veganism Diet</a></li>
-                          <li><a href="pages/carnivore_diet.html">Carnivore Diet</a></li>
-                      </ul>
-                  </li>
-                  </div>
-
-                
-                <li class="acatoy"><a href="#">Contact Us</a></li>
+        <div class="dropdown">
+          <li>
+            <a href="diet.html">Diet Plans</a>
+            <ul class="dropdown-content">
+              <li><a href="diet.html#int_fast">Intermittent</a></li>
+              <li><a href="diet.html#mediterra">Mediterranean</a></li>
+              <li><a href="diet.html#keto">Ketogenic </a></li>
+              <li><a href="diet.html#vega">Veganism</a></li>
+              <li><a href="diet.html#car">Carnivore</a></li>
+              <li><a href="diet.html#paleo">Paleo</a></li>
+              <li><a href="diet.html#dessert">Breakfast</a></li>
+              <li><a href="diet.html#sirt">Sirtfood</a></li>
             </ul>
+          </li>
         </div>
-    </nav>
-    
-    <main>
-        <section class="titulo_contact">
-            <h1>Complete the following application</h1>
-            <form class="formuContact">
-                    <div class="form-name dato">
-                        <label for="name"><h4>NAME: </h4></label>
-                        <br>
-                        <input id="name" name="name" value="" placeholder="Steve " required/>
-                    </div>
-                    <div class="form-last dato">
-                        <label for="last_name"><h4>LAST NAME: </h4></label>
-                        <br>
-                        <input id="last_name" name="last_name" value="" placeholder="Johnson" required/>
-                    </div>                    
-                    <div class="form-email dato">
-                        <label for="email"><h4>EMAIL : </h4></label>
-                        <br>
-                        <input type="email" id="email" name="Email" value="" placeholder="steve@gmail.com" required/>
-                    </div>                    
-                    <div class="form-phone dato">
-                        <label for="phone"><h4>PHONE NUMBER :</h4></label>
-                        <br>
-                        <input type="number" id="phone" name="phone" value="" placeholder="+452602713" required/>
-                    </div>                    
-                    <div class="form-country dato">
-                        <label for="country"><h4>COUNTRY :</h4></label>   
-                        <br>              
-                        <input id="country" name="country" value="" placeholder="United States"/>
-                    </div>
-                    <div class="form-state dato">
-                        <label for="state"><h4>STATE :</h4></label>   
-                        <br>
-                        <input id="state" name="state" value="" placeholder="Washington"/>
-                    </div>
-                    <div class="form-sex">
-                        <label for="sex"><h3>Male </h3></label> 
-                        <input type="radio" name="sex" id="sex" value="male"/>                        
-                        <label for="sex"><h3>Female</h3></label> 
-                        <input type="radio" name="sex" id="sex" value="male"/>
-                        <label for="sex"><h3>Other</h3></label> 
-                        <input type="radio" name="sex" id="other" value="other"/></div>
-                    <button type="submit">SEND</button>
-                </form>            
-        </section>
 
-        
-    </main>
-    <footer>
-      <div class="nav-bar xl">
-        
-        <h4 class="gray">Follow us in our social networks.</h4>
-        <div class="nav-bar trans">
-          
-          <i class="fa fa-twitter" style="font-size: 250%;color:#0d6efd"></i>
-          <i class="fa fa-linkedin" style="font-size: 250%;color:#0d6efd"></i>
-          <i class="fa fa-instagram" style="font-size: 250%;color:#0d6efd"></i>
-          <i class="fa fa-pinterest" style="font-size: 250%; color:#0d6efd"></i>
-          <i class="fa fa-envelope" style="font-size: 250%; color:#0d6efd"></i>
+
+        <li class="acatoy"><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="titulo_contact">
+      <h1>Complete the following application</h1>
+      <form class="formuContact">
+        <div class="form-name dato">
+          <label for="name">
+            <h4>NAME: </h4>
+          </label>
+          <br>
+          <input id="name" name="name" value="" placeholder="Steve " required />
         </div>
-        <div class="nav-bar trans">
+        <div class="form-last dato">
+          <label for="last_name">
+            <h4>LAST NAME: </h4>
+          </label>
+          <br>
+          <input id="last_name" name="last_name" value="" placeholder="Johnson" required />
+        </div>
+        <div class="form-email dato">
+          <label for="email">
+            <h4>EMAIL : </h4>
+          </label>
+          <br>
+          <input type="email" id="email" name="Email" value="" placeholder="steve@gmail.com" required />
+        </div>
+        <div class="form-phone dato">
+          <label for="phone">
+            <h4>PHONE NUMBER :</h4>
+          </label>
+          <br>
+          <input type="number" id="phone" name="phone" value="" placeholder="+452602713" required />
+        </div>
+        <div class="form-country dato">
+          <label for="country">
+            <h4>COUNTRY :</h4>
+          </label>
+          <br>
+          <input id="country" name="country" value="" placeholder="United States" />
+        </div>
+        <div class="form-state dato">
+          <label for="state">
+            <h4>STATE :</h4>
+          </label>
+          <br>
+          <input id="state" name="state" value="" placeholder="Washington" />
+        </div>
+        <div class="form-sex">
+          <label for="sex">
+            <h3>Male </h3>
+          </label>
+          <input type="radio" name="sex" id="sex" value="male" />
+          <label for="sex">
+            <h3>Female</h3>
+          </label>
+          <input type="radio" name="sex" id="sex" value="male" />
+          <label for="sex">
+            <h3>Other</h3>
+          </label>
+          <input type="radio" name="sex" id="other" value="other" />
+        </div>
+        <button type="submit">SEND</button>
+      </form>
+    </section>
+
+
+  </main>
+  <footer>
+    <div class="nav-bar xl">
+
+      <h4 class="gray">Follow us in our social networks.</h4>
+      <div class="nav-bar trans">
+
+        <i class="fa fa-twitter" style="font-size: 250%;color:#0d6efd"></i>
+        <i class="fa fa-linkedin" style="font-size: 250%;color:#0d6efd"></i>
+        <i class="fa fa-instagram" style="font-size: 250%;color:#0d6efd"></i>
+        <i class="fa fa-pinterest" style="font-size: 250%; color:#0d6efd"></i>
+        <i class="fa fa-envelope" style="font-size: 250%; color:#0d6efd"></i>
+      </div>
+      <div class="nav-bar trans">
         <p class="fa copy fa-github"> Copyright 2023</p>
       </div>
-      </div>
-    </footer>
+    </div>
+  </footer>
 
 </body>
+
 </html>
