@@ -1,0 +1,6 @@
+@mixin nav-deco($color,$weight){
+    text-decoration: none;
+    color: $color;
+    font-weight: $weight;
+    padding:15px;
+}
