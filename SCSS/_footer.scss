@@ -1,5 +1,5 @@
 .xl{
-    height: 150px;
+    height: 300px;
     flex-direction: column;
     background: linear-gradient(
         to top,
@@ -8,6 +8,10 @@
          
          rgb(251, 227, 195),
          #acddfd);
+}
+.xs{
+    height:50px;
+    background-color: $color-nav1;
 }
 .gray{
     color: gray;

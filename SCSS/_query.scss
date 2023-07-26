@@ -24,3 +24,21 @@
     transform: translate(-50%, -50%);
     }
 }
+@media (max-width: 4000px) {
+    .card {
+      width: calc(50% - 20px);
+      margin:60px
+    }
+  }
+@media (max-width: 730px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+
+  @media (max-width: 430px) {
+    .card {
+      width: 100%;
+      
+    }
+  }

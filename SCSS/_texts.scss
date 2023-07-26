@@ -17,7 +17,15 @@
     align-items: center;
     box-sizing: border-box;
     padding:4% 1% 0% 2%;
-
+}
+.juli{
+    letter-spacing: 2px;
+    font-size: 135%;
+}
+@media (max-width: 1250px){
+    .juli{
+        font-size: 85%;
+    }
 }
 .textoAbo {
     width: 95%;

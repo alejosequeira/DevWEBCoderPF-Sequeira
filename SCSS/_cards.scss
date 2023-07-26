@@ -1,0 +1,79 @@
+.shop{
+    background: linear-gradient(
+        
+        to right,
+        $color-nav1,
+        $color-nav2,
+        $color-nav2,
+        $color-nav2,
+         $color-nav1);
+    margin-bottom: -1%;
+    padding-bottom: 1%;
+    font-size: 59px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:$color-text;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.tarjetero{    
+    border-top: 10px double $color-text;
+
+    border-bottom: 10px double $color-text;
+    padding-bottom: 5% ;
+    
+    width: 100%;    
+    height: 100%;
+    display: flex;   
+    background: linear-gradient(
+        to right,
+        $color-nav1,
+        $color-nav2,
+        $color-nav2,
+        $color-nav2,
+         $color-nav1);
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .card p:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
