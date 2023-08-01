@@ -10,7 +10,7 @@
   padding: 15px;
 }
 
-nav {
+.navi {
   width: 100%;
   height: 50px;
   margin-top: -1px;
@@ -35,6 +35,53 @@ nav {
   color: gray;
   font-weight: 900;
   padding: 15px;
+}
+
+.navigator {
+  background: linear-gradient(to right, #acddfd, rgb(251, 227, 195), rgb(251, 227, 195), rgb(251, 227, 195), #acddfd);
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  border-bottom: 5px solid gray;
+  color: gray;
+}
+.navigator .apple-name {
+  width: 30px;
+  margin-bottom: 5%;
+}
+.navigator .name {
+  font-size: 200%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0%;
+  margin: 0%;
+}
+.navigator div .navigator3ul {
+  margin: 0% auto;
+  gap: 15%;
+  color: gray;
+  font-weight: bold;
+  font-size: 130%;
+}
+
+.navigator2 {
+  border-bottom: 5px solid gray;
+  border-left: 5px solid gray;
+  border-right: 5px solid gray;
+  padding: 0;
+  font-weight: bold;
+}
+.navigator2 li {
+  color: gray;
+  font-weight: bold;
+  background: linear-gradient(to top, #acddfd, rgb(251, 227, 195), rgb(251, 227, 195), #acddfd);
+}
+.navigator2 a:hover {
+  background-color: #acddfd;
+}
+.navigator2 a {
+  color: gray;
+  font-weight: bold;
+  border-top: 3px solid gray;
 }
 
 .dropdown {
@@ -345,6 +392,10 @@ header {
   padding-top: 5%;
 }
 
+.logo_hambur {
+  width: 10%;
+}
+
 .video {
   width: 70%;
   height: 300px;
@@ -490,6 +541,19 @@ header {
 @media (max-width: 430px) {
   .card {
     width: 100%;
+  }
+}
+@media (max-width: 729px) {
+  .navi {
+    display: none;
+  }
+  .barra-celu {
+    background-color: black;
+  }
+}
+@media (min-width: 730px) {
+  .navcelu {
+    display: none;
   }
 }
 .shop {

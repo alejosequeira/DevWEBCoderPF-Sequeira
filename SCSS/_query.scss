@@ -42,3 +42,19 @@
       
     }
   }
+  @media (max-width: 729px) {
+    .navi {
+      display: none;
+  }  
+  .barra-celu{
+    background-color: black;
+  }
+  // .navbar-toggler-icon {
+  //    background-image: url("../multimedia/carrot.jpg");
+  //  }
+  }
+  @media (min-width: 730px) {
+    .navcelu {
+      display: none;
+    }
+  }
