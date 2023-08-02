@@ -544,6 +544,19 @@ header {
     width: 100%;
   }
 }
+@media (max-width: 475px) {
+  .gray {
+    font-size: 140%;
+  }
+}
+@media (max-width: 380px) {
+  .gray {
+    font-size: 100%;
+  }
+  .cards {
+    width: 100%;
+  }
+}
 @media (max-width: 729px) {
   .navi {
     display: none;
