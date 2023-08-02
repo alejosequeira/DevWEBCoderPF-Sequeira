@@ -107,7 +107,13 @@
   .barra-celu{
     background-color: black;
   }
-  
+  }
+  @media (max-width: 450px) {
+    .tituloHome{
+      h1{
+        font-size: 92%;
+      }
+    }
   }
   @media (max-width: 328px) {
     .tituloHome{
