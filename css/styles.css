@@ -585,6 +585,11 @@ header {
     background-color: black;
   }
 }
+@media (max-width: 328px) {
+  .tituloHome h1 {
+    font-size: 85%;
+  }
+}
 @media (min-width: 730px) {
   .navcelu {
     display: none;
