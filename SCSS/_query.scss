@@ -46,12 +46,55 @@
     .navi {
       display: none;
   }  
+  .tituloHome{
+    h1{
+      font-size: 100%;
+    }
+  }
+  .titulo_diet{
+    .tituloHome{
+      h1{
+        font-size: 210%;
+        box-sizing: border-box;
+        padding:0% 9%;
+        font-family: 'Courier New', Courier, monospace;
+      }
+    }
+    h2{
+      padding:20% 0% 0% 2%; 
+    }
+  }
+  .tituloAbo {
+    
+    h1{
+      left:50%;
+      font-size: 140%;
+    }
+  }
+  .photo{
+    display: flex;
+    flex-direction: column;
+    .nutri {
+      margin-bottom: 5%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .titulo_contact{
+    h1{
+      top:66px;    
+      letter-spacing: 0px;
+      font-size: 120%;
+      background-color: white;
+      text-decoration: 1px underline;  
+      padding-bottom: 3%;  
+    }
+  }
+  
   .barra-celu{
     background-color: black;
   }
-  // .navbar-toggler-icon {
-  //    background-image: url("../multimedia/carrot.jpg");
-  //  }
+  
   }
   @media (min-width: 730px) {
     .navcelu {

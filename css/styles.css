@@ -258,6 +258,7 @@ header {
 .tituloAbo h1 {
   background-color: rgb(251, 227, 195);
   font-size: 200%;
+  box-sizing: border-box;
   padding: 0.3% 1.9% 0.3% 1.9%;
   position: absolute;
   margin-top: 0%;
@@ -285,7 +286,6 @@ header {
   text-align: center;
   letter-spacing: 0.3rem;
   padding: 8% 0% 0% 2%;
-  padding-bottom: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif, cursive;
 }
 .titulo_diet h3 {
@@ -293,7 +293,6 @@ header {
   font-size: 170%;
   font-weight: bold;
   padding: 5% 0% 0% 3%;
-  padding-bottom: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif, cursive;
 }
 .titulo_diet p {
@@ -318,7 +317,7 @@ header {
   margin-top: 3%;
   padding: 0;
   position: sticky;
-  top: 45px;
+  top: 60px;
   font-size: 300%;
   letter-spacing: -4px;
   font-family: "Times New Roman";
@@ -360,13 +359,15 @@ header {
   }
 }
 .textoAbo {
-  width: 95%;
-  margin: 0px 30px 0px 30px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 30px 0px 30px;
 }
 .textoAbo h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif, cursive;
   margin-top: 3%;
   margin-bottom: 1%;
+  text-align: center;
 }
 
 .subrayado {
@@ -546,6 +547,39 @@ header {
 @media (max-width: 729px) {
   .navi {
     display: none;
+  }
+  .tituloHome h1 {
+    font-size: 100%;
+  }
+  .titulo_diet .tituloHome h1 {
+    font-size: 210%;
+    box-sizing: border-box;
+    padding: 0% 9%;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .titulo_diet h2 {
+    padding: 20% 0% 0% 2%;
+  }
+  .tituloAbo h1 {
+    left: 50%;
+    font-size: 140%;
+  }
+  .photo {
+    display: flex;
+    flex-direction: column;
+  }
+  .photo .nutri {
+    margin-bottom: 5%;
+    width: 100%;
+    height: 100%;
+  }
+  .titulo_contact h1 {
+    top: 66px;
+    letter-spacing: 0px;
+    font-size: 120%;
+    background-color: white;
+    text-decoration: 1px underline;
+    padding-bottom: 3%;
   }
   .barra-celu {
     background-color: black;
